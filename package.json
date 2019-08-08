@@ -1,0 +1,50 @@
+{
+  "name": "probot-auto-merge",
+  "version": "0.0.0-development",
+  "description": "A Probot app that automatically merges PRs",
+  "author": "priyanka.jain@microfocus.com",
+  "license": "ISC",
+  "repository": "https://github.houston.softwaregrp.net/priyanka-jain/automerge-bot",
+  "homepage": "https://github.houston.softwaregrp.net/priyanka-jain/automerge-bot",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "dev": "nodemon --exec \"npm start\"",
+    "start": "probot run ./index.js"
+  },
+  "dependencies": {
+    "@octokit/rest": {
+      "integrity": "sha512-D1dDJMbvT4dok9++vc8uwCr92ndadwfz6vHK+IklzBHKSsuLlhpv2/dzx97Y4aRlm0t74LeXKDp4j0b4M2vmQw==",
+      "requires": {
+        "before-after-hook": "^1.1.0",
+        "btoa-lite": "^1.0.0",
+        "debug": "^3.1.0",
+        "http-proxy-agent": "^2.1.0",
+        "https-proxy-agent": "^2.2.0",
+        "lodash": "^4.17.4",
+        "node-fetch": "^2.1.1",
+        "universal-user-agent": "^2.0.0",
+        "url-template": "^2.0.8"
+      },
+      "resolved": "https://registry.npmjs.org/@octokit/rest/-/rest-15.18.0.tgz",
+      "version": "15.18.0"
+    },
+    "github-api": "^3.0.0",
+    "log4js": "4.0.1",
+    "probot": "7.5.0"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "nock": "^10.0.0",
+    "nodemon": "^1.17.2",
+    "smee-client": "^1.0.2",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": "8.3.x",
+    "npm": "5.7.1"
+  }
+}

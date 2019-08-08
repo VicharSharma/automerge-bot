@@ -1,0 +1,7 @@
+# Lines starting with '#' are comments.
+# Each line is a file pattern followed by one or more owners,
+# the last matching pattern has the most precendence.
+
+# Add the Github teams which should be added as Code Owners
+# If you are adding a new team as Code Owner, please provide write access to the Team to the repo, even if indiviual members have access
+* priyanka-jain
